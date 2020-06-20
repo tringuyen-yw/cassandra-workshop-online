@@ -13,7 +13,7 @@ public class Insert {
 
             session.execute(
                 SimpleStatement.builder( "INSERT INTO killrvideo.user_credentials (email, password, userid) VALUES (?,?,?)")
-                        .addPositionalValues("cv@datastax.com", "3@$tC0@$tC@ss@ndr@", UUID.fromString("55555555-5555-5555-5555-555555555555"))
+                        .addPositionalValues("hehe@funny.net", "Oh!ThisWorks??!", UUID.fromString("55555555-5555-5555-5555-555555555555"))
                         .build());
             System.out.println("Successful Insert");
         }

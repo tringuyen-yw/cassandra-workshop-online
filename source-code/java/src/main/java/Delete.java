@@ -11,7 +11,7 @@ public class Delete {
 
             session.execute(
                 SimpleStatement.builder( "DELETE FROM killrvideo.user_credentials WHERE email = ?")
-                        .addPositionalValues("cv@datastax.com")
+                        .addPositionalValues("ah@datastax.com")
                         .build());
             System.out.println("Successful Delete");
         }
